@@ -4,12 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Documentos extends Model
+class Documento extends Model
 {
      /**
      * Nombre de la tabla (opcional si coincide con el plural del modelo).
      */
-    protected $table = 'documentos';
+    protected $table = 'documento';
 
     /**
      * Atributos que se pueden asignar masivamente.
